@@ -1,4 +1,5 @@
-﻿using LC.Domein.Entities.Courses;
+﻿using LC.Domein.Commons;
+using LC.Domein.Entities.Courses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LC.Domein.Entities.Students
 {
-    public class Student
+    public class Student : Auditable
     {
         public string FirstName { get; set; }
 
