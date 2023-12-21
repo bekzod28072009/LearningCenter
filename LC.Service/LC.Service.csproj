@@ -10,4 +10,8 @@
     <ProjectReference Include="..\LC.Domein\LC.Domein.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 </Project>
