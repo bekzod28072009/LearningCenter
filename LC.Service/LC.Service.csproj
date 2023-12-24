@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LC.Domein\LC.Domein.csproj" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Service\" />
+    <ProjectReference Include="..\LC.DataAcces\LC.DataAcces.csproj" />
+    <ProjectReference Include="..\LC.Domein\LC.Domein.csproj" />
   </ItemGroup>
 
 </Project>

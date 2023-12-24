@@ -13,7 +13,7 @@ namespace LC.Service.IService
     {
         IQueryable<Student> GetAll(Expression<Func<Student, bool>> expression, string[] includes = null);
         ValueTask<StudentDto> GetAsync(Expression<Func<Student, bool>> expression, string[] includes = null);
-        ValueTask<StudentDto> CreateAsync(StudentDto entity);
+        ValueTask<StudentDto> CreateAsync(StudentDto entity);     
         ValueTask<bool> DeleteAsync(Expression<Func<Student, bool>> expression);
         StudentDto Update(int id, StudentDto entity);
     }
