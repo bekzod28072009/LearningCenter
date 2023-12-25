@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LC.DataAcces\LC.DataAcces.csproj" />
     <ProjectReference Include="..\LC.Service\LC.Service.csproj" />
   </ItemGroup>
