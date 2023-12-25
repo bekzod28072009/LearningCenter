@@ -3,7 +3,7 @@ using LC.Service.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LearningCenterAPI.Controllers
+namespace LearningCenterAPI.Controllers.Student
 {
     [Route("api/[controller]")]
     [ApiController]
